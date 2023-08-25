@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="container">
+        <h3>Escolha um pokemon</h3>
+        <select id="pokedex1" onchange="pokemonInfo1()">
+            <option>---</option>
+        </select>
+        <div id="card" class="bulba">
+            <div id="title">
+                <h4 id="nome1"></h4>
+                <p id="numero1"></p>
+            </div>
+            <span >
+                <img src="" alt="" id="foto1">
+                <span id="info">
+                    <div id="ataque1">
+                        <i id="elemento1_1"></i>
+                        <h6 id="att1_1"></h6>
+                        <p id="textAtt1_1"></p>
+                    </div>
+                    <div id="ataque2">
+                        <i id="elemento1_2"></i>
+                        <h6 id="att2_1"></h6>
+                        <p id="textAtt1_2"></p>
+                    </div>
+                </span>
+            </span>
+            <span>
+                <h5 id="description"></h5>
+                <p id="historia"></p>
+            </span>
+        </div>
+    </div>
+
+</body>
+</html>
